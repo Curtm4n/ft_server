@@ -1,0 +1,1 @@
+curl -s https://www.phpmyadmin.net/downloads/ | grep phpMyAdmin- | grep .tar.gz | cut -d '"' -f 2 | grep https -m 1 > link
